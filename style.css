@@ -1,0 +1,60 @@
+
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+
+h1 {
+  margin: 10px  ;
+  color: #0c0404;
+}
+
+h2 {
+  margin: 0;
+  color: #070101;
+  font-size: 18px;
+}
+
+p {
+  color: #070505;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+a {
+  color: #000508;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.card {
+    border: 2px solid #527b99;      /* blue-ish border */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);  /* subtle shadow */
+    border-radius: 15px;            /* rounded corners */
+    padding: 20px;                  /* some padding inside */
+    background-color: rgb(186, 222, 233);        /* white background */
+    width: 400px; 
+    height:500px;                  /* fix width to fit your image */
+    margin: 20px auto;              /* center with some spacing */
+  }
+
